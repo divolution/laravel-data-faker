@@ -11,33 +11,24 @@
     "authors": [
         {
             "name": "Naresh Verma",
-            "email": "naresh.verma327@webkul.com",
-            "homepage": "https://bagisto.com",
-            "role": "Developer"
+            "email": "naresh.verma327@webkul.com"
         }
     ],
     "require": {
-        "konekt/concord": "^1.2",
-        "laravel/helpers": "^1.3",
-        "mbezhanov/faker-provider-collection": "^1.0.0"
+        "konekt/concord": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "Webkul\\DataFaker\\": "src",
-            "Webkul\\DataFaker\\Database\\Factories\\": "database/factories"
+            "Webkul\\DataFaker\\": "src/"
         }
-    },
-    "config": {
-        "sort-packages": true
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Webkul\\DataFaker\\Providers\\DataFakerServiceProvider"
+                "Webkul\\DatFaker\\Providers\\DataFakerServiceProvider"
             ],
             "aliases": {}
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
